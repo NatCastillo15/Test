@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+
+#title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav{
+    width: 200px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    width: 200px;
+}
+
+ul li.first-Child a{
+    color: #fff;
+}
+
+ul li.first-Child{
+    background-color: #f9a91a;
+}
+a{
+    outline: 1px solid green;
+    display: block;
+    text-decoration: none;
+}
+
+ul li.first-Child a:hover{
+    background-color: #e0e0d1;
+
+}
+
+a:active{
+    background-color: #333;
+}
